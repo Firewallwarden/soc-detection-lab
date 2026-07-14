@@ -1,3 +1,10 @@
-# Architecture
-
-Architecture diagram will be added after Wazuh and the monitored endpoints have been deployed.
+WAZUH-SRV-01
+Ubuntu Server
+Manager • Indexer • Dashboard
+        │
+        │
+Wazuh Agent
+        │
+        ▼
+WIN11-ENDPOINT-01
+Windows 11 Pro

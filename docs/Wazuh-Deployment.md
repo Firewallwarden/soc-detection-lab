@@ -51,3 +51,19 @@ Changing the default credentials immediately after deployment reduces the risk o
 - Identity and access management
 - Security hardening
 - Linux administration
+
+## Windows Endpoint Registration
+
+### Objective
+
+Register a Windows 11 endpoint with the Wazuh Manager for centralized monitoring.
+
+### Configuration
+
+- Operating System: Windows 11 Pro
+- Agent Name: WIN11-ENDPOINT-01
+- Connection Method: Wazuh Agent
+
+### Result
+
+The Windows endpoint successfully registered with the Wazuh Manager and reported an Active status in the Wazuh Dashboard.

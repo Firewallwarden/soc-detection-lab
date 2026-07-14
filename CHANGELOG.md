@@ -21,7 +21,7 @@ All notable technical milestones for the SOC Detection Lab are documented in thi
 ---
 
 ## July 7, 2026
-S
+
 ### SIEM Deployment
 
 - Deployed a single-node Wazuh SIEM.
@@ -30,3 +30,13 @@ S
 - Installed the Wazuh Dashboard.
 - Verified successful deployment.
 - Added deployment screenshots and documentation.
+
+## 2026-07-13
+
+### Endpoint Monitoring
+
+- Created a Windows 11 virtual machine in Oracle VirtualBox.
+- Installed Windows 11 Pro using a local account.
+- Installed VirtualBox Guest Additions.
+- Installed and registered the Wazuh Windows Agent.
+- Verified successful communication between the Windows endpoint and the Wazuh Manager.
